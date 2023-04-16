@@ -1,19 +1,6 @@
 # Práctica 2 
 
-> Análisis y Diseño de Sistemas 1
-
-> Integrantes (Grupo 6)
-
-|Carné | Nombre |
-|----|----|
-|201314007| Edwin Alfredo Lopez Gomez|
-|201801229| Osman Alejandro Pérez López|
-|201503855| Aldair Estrada García|
-|201403793| Kevin Nicolas Garcia Martinez|
-|201709075| Fabio Andre Sanchez Chavez|
-|201404405| Juan Antonio Pineda Espino|
-
-- [Enlace a repositorio en GitHub](https://github.com/OsmanPL/-AYD1-Practica2_G6)
+> Pruebas Unitarias
 
 ## Tabla de Contenido
 - [Práctica 2](#práctica-2)
