@@ -1,0 +1,61 @@
+{
+    "name": "u-social",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "test": "jest --env=jsdom"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "axios": "^0.21.4",
+        "core-js": "^3.6.5",
+        "socket.io-client": "^4.3.2",
+        "sweetalert2": "^11.1.7",
+        "vue": "^3.0.0",
+        "vue-3-socket.io": "^1.0.4",
+        "vue-axios": "^3.3.7",
+        "vue-router": "^4.0.11",
+        "vue-socket.io": "^3.0.10",
+        "vue-toastification": "^2.0.0-rc.5"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.5.0",
+        "@vue/cli-plugin-eslint": "~4.5.0",
+        "@vue/cli-service": "~4.5.0",
+        "@vue/compiler-sfc": "^3.0.0",
+        "@vue/test-utils": "^2.0.0-rc.17",
+        "@vue/vue3-jest": "^27.0.0-alpha.4",
+        "babel-eslint": "^10.1.0",
+        "babel-jest": "^27.5.1",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^7.0.0"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/vue3-essential",
+            "eslint:recommended"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.js$": "babel-jest",
+            "^.+\\.vue$": "@vue/vue3-jest"
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ]
+}

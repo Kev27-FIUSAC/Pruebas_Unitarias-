@@ -1,0 +1,7 @@
+/node_modules
+/config/creds.js
+coverage
+
+.nyc_output
+
+.env
